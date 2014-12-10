@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TutorMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tutor_prompt">TUTOR</string>
+    <string name="me_prompt">ME</string>
+    <string name="help">Help</string>
+    <string name="search_tutor_list">Search Tutor List</string>
+    <string name="search_for_active_tutors">Search for Active Tutors</string>
+    <string name="become_listed_tutor">Become a Listed Tutor</string>
+    <string name="become_active_tutor">Become an Active Tutor</string>
+    <string name="title_activity_display_help">Help</string>
+    <string name="help_paragraph">This app is designed to help connect tutors with students who need help. \n\nUsing the list of tutors, students can search through all of the tutors to find one that fits their needs.\n\nStudents can also use the "Search for Active Tutor" feature to find a tutor who is currently available and looking for a tutee.  This can also allow student to get together in groups to study for exams. \n\nUsers can also register themselves to be listed as a tutor on our database using the "Become a Listed Tutor" feature.\n\n The "Become an Active Tutor" feature allows users to broadcast their current availability as a tutor. While this feature is active, the user will be added to the list of active tutors so that others can find them in the "Search for Active Tutor" feature.</string>
+    <string name="title_activity_list">Search Tutor List</string>
+    <string name="search_button">Search</string>
+    <string name="search_all">All</string>
+    <string name="search_subject">Subject</string>
+    <string name="search_course">Course</string>
+    <string name="buffer">X</string>
+    <string name="name_label">Name:</string>
+    <string name="year_label">Year:</string>
+    <string name="major_label">Major:</string>
+    <string name="number_label">Number:</string>
+    <string name="email_label">Email:</string>
+    <string name="subject_label">Subject:</string>
+    <string name="course_label">Course:</string>
+    <string name="add_button">Add</string>
+    <string name="location_label">Location:</string>
+    <string name="start_button">Start</string>
+    <string name="stop_button">Stop</string>
+
+    <string-array name="year_array">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+    <string-array name="subject_array">
+        <item>AAE</item>
+        <item>AAS</item>
+        <item>ABE</item>
+        <item>AD</item>
+        <item>AFT</item>
+        <item>AGEC</item>
+        <item>AGR</item>
+        <item>AGRY</item>
+        <item>AMST</item>
+        <item>ANSC</item>
+        <item>ANTH</item>
+        <item>ARAB</item>
+        <item>ASAM</item>
+        <item>ASL</item>
+        <item>ASM</item>
+        <item>ASTR</item>
+        <item>AT</item>
+        <item>BAND</item>
+        <item>BCHM</item>
+        <item>BCM</item>
+        <item>BIOL</item>
+        <item>BME</item>
+        <item>BMS</item>
+        <item>BTNY</item>
+        <item>CAND</item>
+        <item>CE</item>
+        <item>CEM</item>
+        <item>CGT</item>
+        <item>CHE</item>
+        <item>CHM</item>
+        <item>CHNS</item>
+        <item>CLCS</item>
+        <item>CLPH</item>
+        <item>CMPL</item>
+        <item>CNIT</item>
+        <item>COM</item>
+        <item>CPB</item>
+        <item>CS</item>
+        <item>CSR</item>
+        <item>DANC</item>
+        <item>EAPS</item>
+        <item>ECE</item>
+        <item>ECET</item>
+        <item>ECON</item>
+        <item>EDCI</item>
+        <item>EDPS</item>
+        <item>EDST</item>
+        <item>EEE</item>
+        <item>ENE</item>
+        <item>ENGL</item>
+        <item>ENGR</item>
+        <item>ENTM</item>
+        <item>ENTR</item>
+        <item>EPCS</item>
+        <item>EXPL</item>
+        <item>FNR</item>
+        <item>FR</item>
+        <item>FS</item>
+        <item>FVS</item>
+        <item>GEP</item>
+        <item>GER</item>
+        <item>GRAD</item>
+        <item>GREK</item>
+        <item>GS</item>
+        <item>HDFS</item>
+        <item>HEBR</item>
+        <item>HIST</item>
+        <item>HK</item>
+        <item>HONR</item>
+        <item>HORT</item>
+        <item>HSCI</item>
+        <item>HTM</item>
+        <item>IDE</item>
+        <item>IDIS</item>
+        <item>IE</item>
+        <item>IET</item>
+        <item>IPPH</item>
+        <item>IT</item>
+        <item>ITAL</item>
+        <item>JPNS</item>
+        <item>JWST</item>
+        <item>LA</item>
+        <item>LATN</item>
+        <item>LC</item>
+        <item>LING</item>
+        <item>MA</item>
+        <item>MARS</item>
+        <item>MCMP</item>
+        <item>ME</item>
+        <item>MET</item>
+        <item>MFET</item>
+        <item>MGMT</item>
+        <item>MSE</item>
+        <item>MSL</item>
+        <item>MUS</item>
+        <item>NRES</item>
+        <item>NS</item>
+        <item>NUCL</item>
+        <item>NUPH</item>
+        <item>NUR</item>
+        <item>NUTR</item>
+        <item>OBHR</item>
+        <item>OLS</item>
+        <item>PES</item>
+        <item>PHAD</item>
+        <item>PHIL</item>
+        <item>PHPR</item>
+        <item>PHRM</item>
+        <item>PHYS</item>
+        <item>POL</item>
+        <item>PSY</item>
+        <item>PTGS</item>
+        <item>REG</item>
+        <item>REL</item>
+        <item>RUSS</item>
+        <item>SA</item>
+        <item>SCI</item>
+        <item>SFS</item>
+        <item>SLHS</item>
+        <item>SOC</item>
+        <item>SPAN</item>
+        <item>STAT</item>
+        <item>TECH</item>
+        <item>THTR</item>
+        <item>TLI</item>
+        <item>VCS</item>
+        <item>VM</item>
+        <item>WGSS</item>
+        <item>YDAE</item>
+    </string-array>
+
+    <string name="title_activity_add">Become a Tutor</string>
+    <string name="title_activity_add_active">Become Active Tutor</string>
+    <string name="title_activity_list_actives">Search for Active Tutors</string>
+
+</resources>

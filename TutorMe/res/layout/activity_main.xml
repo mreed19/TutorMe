@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.reed136.tutorme.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tutor_prompt"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="75sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/me_prompt"
+        android:textStyle="bold"
+        android:textSize="75sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/list_tutors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/search_tutor_list" 
+        android:onClick="runTutorList"/>
+
+    <Button
+        android:id="@+id/search_tutors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/list_tutors"
+        android:text="@string/search_for_active_tutors"
+        android:onClick="runTutorSearch" />
+    
+    <Button
+        android:id="@+id/become_tutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/search_tutors"
+        android:text="@string/become_listed_tutor"
+        android:onClick="runTutorAdd" />
+
+    <Button
+        android:id="@+id/become_active_tutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/become_tutor"
+        android:text="@string/become_active_tutor"
+        android:onClick="runActiveAdd" />
+    
+    <Button
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/become_active_tutor"
+        android:text="@string/help" 
+        android:onClick="openHelp" />
+
+</RelativeLayout>

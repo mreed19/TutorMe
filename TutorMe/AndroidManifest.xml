@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reed136.tutorme"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayHelpActivity"
+            android:label="@string/title_activity_display_help"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.reed136.tutorme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ListActivity"
+            android:label="@string/title_activity_list"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.reed136.tutorme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddActivity"
+            android:label="@string/title_activity_add"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.reed136.tutorme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddActiveActivity"
+            android:label="@string/title_activity_add_active"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.reed136.tutorme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ListActivesActivity"
+            android:label="@string/title_activity_list_actives"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.reed136.tutorme.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
